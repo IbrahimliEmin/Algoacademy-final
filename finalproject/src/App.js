@@ -1,8 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import "react-router-dom";
+
 
 function App() {
-  
+  <BrowserRouter>
+     <Route>
+      <Header />
+    </Route> 
+  </BrowserRouter>
   
 }
 
